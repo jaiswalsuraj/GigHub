@@ -11,6 +11,7 @@ namespace GigHub.Controllers
         // GET: GigHub
         public ActionResult Index()
         {
+            string gig;
             return View();
         }
     }
